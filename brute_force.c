@@ -9,7 +9,7 @@ int Index(String S, String T, int pos){
 	/*i用于主串S中当前位置的下标，若pos不为1，则从pos位置开始匹配*/
 	int i = pos;
 
-    /*j用于表示子串中当前位置的下标值*/
+        /*j用于表示子串中当前位置的下标值*/
 	int j = 1;
 
 	while(i <= S[0] && j <= T[0]) {
@@ -23,7 +23,7 @@ int Index(String S, String T, int pos){
 
 		} else {
 
-            /*退回到上次开始匹配位置的下一位*/
+                        /*退回到上次开始匹配位置的下一位*/
 			i = i - j + 2;
 
 			/*j退回到子串的首位*/
