@@ -34,7 +34,7 @@ int Index(String S, String T, int pos){
 
 	if (j > T[0]) {
 
-		return i - T[0];
+		return i - T[0]; //注意此时的i是比正常的结果多1的
 
 	} else {
 
